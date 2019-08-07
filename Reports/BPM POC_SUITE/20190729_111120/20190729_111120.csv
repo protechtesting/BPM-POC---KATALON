@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+BPM POC_SUITE,Firefox 67.0,,,2019-07-29 11:11:21,2019-07-29 11:12:02,40.975s,INCOMPLETE
+,,,,,,,
+Test Cases/BPM POC/TC_001_Verify_Record_UpdateSuccessful,Firefox 67.0,,,2019-07-29 11:11:22,2019-07-29 11:11:34,12.451s,FAILED
+"openBrowser("""")",Firefox 67.0,,,2019-07-29 11:11:22,2019-07-29 11:11:26,4.281s,PASSED
+"navigateToUrl(""http://10.50.120.22/nvkids/#/login"")",Firefox 67.0,,,2019-07-29 11:11:26,2019-07-29 11:11:32,6.125s,PASSED
+maximizeWindow(),Firefox 67.0,,,2019-07-29 11:11:32,2019-07-29 11:11:33,0.328s,PASSED
+waitForAngularLoad(10),Firefox 67.0,,,2019-07-29 11:11:33,2019-07-29 11:11:33,0.032s,PASSED
+"setText(findTestObject(""Login Page/Input_Username""), ""protechnv"")",Firefox 67.0,,,2019-07-29 11:11:33,2019-07-29 11:11:33,0.125s,PASSED
+"setText(findTestObject(""Login Page/Input_Password""), ""Protech!23nv"")",Firefox 67.0,,,2019-07-29 11:11:33,2019-07-29 11:11:33,0.062s,PASSED
+"click(findTestObject(""Login Page/Button_Login""))",Firefox 67.0,,,2019-07-29 11:11:33,2019-07-29 11:11:34,0.953s,PASSED
+"doubleClick(findTestObject(""BPM POC/GridRow""))",Firefox 67.0,,,2019-07-29 11:11:34,2019-07-29 11:11:34,0.266s,FAILED
+,,,,,,,
+Test Cases/BPM POC/TC_002_Verify_Record_AlreadyExist,Firefox 67.0,,,2019-07-29 11:11:34,2019-07-29 11:11:45,11.204s,FAILED
+"openBrowser("""")",Firefox 67.0,,,2019-07-29 11:11:34,2019-07-29 11:11:37,3.068s,PASSED
+"navigateToUrl(""http://10.50.120.22/nvkids/#/login"")",Firefox 67.0,,,2019-07-29 11:11:37,2019-07-29 11:11:43,6.213s,PASSED
+maximizeWindow(),Firefox 67.0,,,2019-07-29 11:11:43,2019-07-29 11:11:44,0.426s,PASSED
+waitForAngularLoad(10),Firefox 67.0,,,2019-07-29 11:11:44,2019-07-29 11:11:44,0.027s,PASSED
+"setText(findTestObject(""Login Page/Input_Username""), ""protechnv"")",Firefox 67.0,,,2019-07-29 11:11:44,2019-07-29 11:11:44,0.066s,PASSED
+"setText(findTestObject(""Login Page/Input_Password""), ""Protech!23nv"")",Firefox 67.0,,,2019-07-29 11:11:44,2019-07-29 11:11:44,0.094s,PASSED
+"click(findTestObject(""Login Page/Button_Login""))",Firefox 67.0,,,2019-07-29 11:11:44,2019-07-29 11:11:45,0.984s,PASSED
+"doubleClick(findTestObject(""BPM POC/GridRow""))",Firefox 67.0,,,2019-07-29 11:11:45,2019-07-29 11:11:45,0.188s,FAILED
+,,,,,,,
+Test Cases/BPM POC/TC_003_Verify_RequiredField,Firefox 67.0,,,2019-07-29 11:11:45,2019-07-29 11:12:02,17.140s,FAILED
+"openBrowser("""")",Firefox 67.0,,,2019-07-29 11:11:45,2019-07-29 11:11:49,3.469s,PASSED
+"navigateToUrl(""http://10.50.120.22/nvkids/#/login"")",Firefox 67.0,,,2019-07-29 11:11:49,2019-07-29 11:11:55,6.141s,PASSED
+maximizeWindow(),Firefox 67.0,,,2019-07-29 11:11:55,2019-07-29 11:11:55,0.328s,PASSED
+waitForAngularLoad(10),Firefox 67.0,,,2019-07-29 11:11:55,2019-07-29 11:11:55,0.021s,PASSED
+"setText(findTestObject(""Login Page/Input_Username""), ""protechnv"")",Firefox 67.0,,,2019-07-29 11:11:55,2019-07-29 11:11:55,0.072s,PASSED
+"setText(findTestObject(""Login Page/Input_Password""), ""Protech!23nv"")",Firefox 67.0,,,2019-07-29 11:11:55,2019-07-29 11:11:55,0.110s,PASSED
+"click(findTestObject(""Login Page/Button_Login""))",Firefox 67.0,,,2019-07-29 11:11:55,2019-07-29 11:11:56,0.875s,PASSED
+"doubleClick(findTestObject(""BPM POC/GridRow""))",Firefox 67.0,,,2019-07-29 11:11:56,2019-07-29 11:11:57,0.375s,PASSED
+"sendKeys(findTestObject(""BPM POC/Input_Description""), Keys.chord(CONTROL, ""a""))",Firefox 67.0,,,2019-07-29 11:11:57,2019-07-29 11:11:57,0.062s,PASSED
+"sendKeys(findTestObject(""BPM POC/Input_Description""), Keys.chord(DELETE))",Firefox 67.0,,,2019-07-29 11:11:57,2019-07-29 11:11:57,0.078s,PASSED
+"click(findTestObject(""BPM POC/Button_Save""))",Firefox 67.0,,,2019-07-29 11:11:57,2019-07-29 11:11:57,0.266s,PASSED
+delay(5),Firefox 67.0,,,2019-07-29 11:11:57,2019-07-29 11:12:02,5.016s,PASSED
+"verifyElementText(findTestObject(""BPM POC/Status_message""), ""Failure. E0076 : Enter Required Fields"")",Firefox 67.0,,,2019-07-29 11:12:02,2019-07-29 11:12:02,0.187s,FAILED

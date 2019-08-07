@@ -1,0 +1,54 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+BPM POC_SUITE,Chrome 75.0.3770.142,,,2019-07-29 13:38:42,2019-07-29 13:40:04,1m - 21.559s,INCOMPLETE
+,,,,,,,
+Test Cases/BPM POC/TC_001_Verify_Record_UpdateSuccessful,Chrome 75.0.3770.142,,,2019-07-29 13:38:42,2019-07-29 13:39:14,31.648s,PASSED
+"runtime.exec(""C:/DC/KILL BROWSER.bat"")",Chrome 75.0.3770.142,,,2019-07-29 13:38:43,2019-07-29 13:38:43,0.022s,NOT_RUN
+"openBrowser("""")",Chrome 75.0.3770.142,,,2019-07-29 13:38:43,2019-07-29 13:38:50,6.769s,PASSED
+"navigateToUrl(""http://10.50.120.22/nvkids/#/login"")",Chrome 75.0.3770.142,,,2019-07-29 13:38:50,2019-07-29 13:38:56,6.319s,PASSED
+maximizeWindow(),Chrome 75.0.3770.142,,,2019-07-29 13:38:56,2019-07-29 13:39:00,4.473s,PASSED
+waitForAngularLoad(10),Chrome 75.0.3770.142,,,2019-07-29 13:39:00,2019-07-29 13:39:01,0.050s,PASSED
+"setText(findTestObject(""Login Page/Input_Username""), ""protechnv"")",Chrome 75.0.3770.142,,,2019-07-29 13:39:01,2019-07-29 13:39:01,0.212s,PASSED
+"setText(findTestObject(""Login Page/Input_Password""), ""Protech!23nv"")",Chrome 75.0.3770.142,,,2019-07-29 13:39:01,2019-07-29 13:39:01,0.270s,PASSED
+"click(findTestObject(""Login Page/Button_Login""))",Chrome 75.0.3770.142,,,2019-07-29 13:39:01,2019-07-29 13:39:01,0.265s,PASSED
+"doubleClick(findTestObject(""BPM POC/GridRow""))",Chrome 75.0.3770.142,,,2019-07-29 13:39:01,2019-07-29 13:39:02,0.948s,PASSED
+delay(5),Chrome 75.0.3770.142,,,2019-07-29 13:39:02,2019-07-29 13:39:07,5.020s,PASSED
+ra = RandomStringUtils.randomAlphanumeric(10),Chrome 75.0.3770.142,,,2019-07-29 13:39:07,2019-07-29 13:39:07,0.007s,PASSED
+"setText(findTestObject(""BPM POC/Input_Description""), ""Test - message"" + ra)",Chrome 75.0.3770.142,,,2019-07-29 13:39:07,2019-07-29 13:39:08,0.412s,PASSED
+"click(findTestObject(""BPM POC/Button_Save""))",Chrome 75.0.3770.142,,,2019-07-29 13:39:08,2019-07-29 13:39:08,0.105s,PASSED
+delay(5),Chrome 75.0.3770.142,,,2019-07-29 13:39:08,2019-07-29 13:39:13,5.002s,PASSED
+"verifyElementText(findTestObject(""BPM POC/Status_message""), ""Success. Record Saved Successfully"")",Chrome 75.0.3770.142,,,2019-07-29 13:39:13,2019-07-29 13:39:13,0.082s,PASSED
+takeScreenshot(),Chrome 75.0.3770.142,,,2019-07-29 13:39:13,2019-07-29 13:39:13,0.429s,PASSED
+closeBrowser(),Chrome 75.0.3770.142,,,2019-07-29 13:39:13,2019-07-29 13:39:14,0.732s,PASSED
+,,,,,,,
+Test Cases/BPM POC/TC_002_Verify_Record_AlreadyExist,Chrome 75.0.3770.142,,,2019-07-29 13:39:14,2019-07-29 13:39:39,24.989s,PASSED
+"openBrowser("""")",Chrome 75.0.3770.142,,,2019-07-29 13:39:14,2019-07-29 13:39:20,5.390s,PASSED
+"navigateToUrl(""http://10.50.120.22/nvkids/#/login"")",Chrome 75.0.3770.142,,,2019-07-29 13:39:20,2019-07-29 13:39:27,7.079s,PASSED
+maximizeWindow(),Chrome 75.0.3770.142,,,2019-07-29 13:39:27,2019-07-29 13:39:31,4.127s,PASSED
+waitForAngularLoad(10),Chrome 75.0.3770.142,,,2019-07-29 13:39:31,2019-07-29 13:39:31,0.012s,PASSED
+"setText(findTestObject(""Login Page/Input_Password""), ""Protech!23nv"")",Chrome 75.0.3770.142,,,2019-07-29 13:39:31,2019-07-29 13:39:31,0.130s,PASSED
+"setText(findTestObject(""Login Page/Input_Username""), ""protechnv"")",Chrome 75.0.3770.142,,,2019-07-29 13:39:31,2019-07-29 13:39:31,0.093s,PASSED
+"click(findTestObject(""Login Page/Button_Login""))",Chrome 75.0.3770.142,,,2019-07-29 13:39:31,2019-07-29 13:39:31,0.070s,PASSED
+"doubleClick(findTestObject(""BPM POC/GridRow""))",Chrome 75.0.3770.142,,,2019-07-29 13:39:31,2019-07-29 13:39:32,1.165s,PASSED
+"setText(findTestObject(""BPM POC/Input_Description""), ""POC Test Message 6 POC Test Message 6 Sample9"")",Chrome 75.0.3770.142,,,2019-07-29 13:39:32,2019-07-29 13:39:33,0.393s,PASSED
+"click(findTestObject(""BPM POC/Button_Save""))",Chrome 75.0.3770.142,,,2019-07-29 13:39:33,2019-07-29 13:39:33,0.072s,PASSED
+delay(5),Chrome 75.0.3770.142,,,2019-07-29 13:39:33,2019-07-29 13:39:38,5.002s,PASSED
+"verifyElementText(findTestObject(""BPM POC/Status_message""), ""Failure. E : Record Already Exists"")",Chrome 75.0.3770.142,,,2019-07-29 13:39:38,2019-07-29 13:39:38,0.073s,PASSED
+takeScreenshot(),Chrome 75.0.3770.142,,,2019-07-29 13:39:38,2019-07-29 13:39:38,0.419s,PASSED
+closeBrowser(),Chrome 75.0.3770.142,,,2019-07-29 13:39:38,2019-07-29 13:39:39,0.767s,PASSED
+,,,,,,,
+Test Cases/BPM POC/TC_003_Verify_RequiredField,Chrome 75.0.3770.142,,,2019-07-29 13:39:39,2019-07-29 13:40:04,24.548s,PASSED
+"openBrowser("""")",Chrome 75.0.3770.142,,,2019-07-29 13:39:39,2019-07-29 13:39:45,5.340s,PASSED
+"navigateToUrl(""http://10.50.120.22/nvkids/#/login"")",Chrome 75.0.3770.142,,,2019-07-29 13:39:45,2019-07-29 13:39:51,6.737s,PASSED
+maximizeWindow(),Chrome 75.0.3770.142,,,2019-07-29 13:39:51,2019-07-29 13:39:55,4.145s,PASSED
+waitForAngularLoad(10),Chrome 75.0.3770.142,,,2019-07-29 13:39:55,2019-07-29 13:39:55,0.011s,PASSED
+"setText(findTestObject(""Login Page/Input_Password""), ""Protech!23nv"")",Chrome 75.0.3770.142,,,2019-07-29 13:39:55,2019-07-29 13:39:56,0.158s,PASSED
+"setText(findTestObject(""Login Page/Input_Username""), ""protechnv"")",Chrome 75.0.3770.142,,,2019-07-29 13:39:56,2019-07-29 13:39:56,0.190s,PASSED
+"click(findTestObject(""Login Page/Button_Login""))",Chrome 75.0.3770.142,,,2019-07-29 13:39:56,2019-07-29 13:39:56,0.083s,PASSED
+"doubleClick(findTestObject(""BPM POC/GridRow""))",Chrome 75.0.3770.142,,,2019-07-29 13:39:56,2019-07-29 13:39:57,1.422s,PASSED
+"sendKeys(findTestObject(""BPM POC/Input_Description""), Keys.chord(CONTROL, ""a""))",Chrome 75.0.3770.142,,,2019-07-29 13:39:57,2019-07-29 13:39:57,0.059s,PASSED
+"sendKeys(findTestObject(""BPM POC/Input_Description""), Keys.chord(DELETE))",Chrome 75.0.3770.142,,,2019-07-29 13:39:57,2019-07-29 13:39:57,0.063s,PASSED
+"click(findTestObject(""BPM POC/Button_Save""))",Chrome 75.0.3770.142,,,2019-07-29 13:39:57,2019-07-29 13:39:58,0.098s,PASSED
+delay(5),Chrome 75.0.3770.142,,,2019-07-29 13:39:58,2019-07-29 13:40:03,5.001s,PASSED
+"verifyElementText(findTestObject(""BPM POC/Status_message""), ""Failure. E0076 : Enter Required Fields"")",Chrome 75.0.3770.142,,,2019-07-29 13:40:03,2019-07-29 13:40:03,0.031s,PASSED
+takeScreenshot(),Chrome 75.0.3770.142,,,2019-07-29 13:40:03,2019-07-29 13:40:03,0.336s,PASSED
+closeBrowser(),Chrome 75.0.3770.142,,,2019-07-29 13:40:03,2019-07-29 13:40:04,0.684s,PASSED

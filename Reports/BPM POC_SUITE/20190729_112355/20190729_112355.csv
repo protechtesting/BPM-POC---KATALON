@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+BPM POC_SUITE,,,,2019-07-29 11:23:58,2019-07-29 11:24:00,1.876s,INCOMPLETE
+,,,,,,,
+Test Cases/BPM POC/TC_001_Verify_Record_UpdateSuccessful,,,,2019-07-29 11:23:58,2019-07-29 11:23:59,0.799s,FAILED
+"openBrowser("""")",,,,2019-07-29 11:23:58,2019-07-29 11:23:59,0.349s,FAILED
+,,,,,,,
+Test Cases/BPM POC/TC_002_Verify_Record_AlreadyExist,,,,2019-07-29 11:23:59,2019-07-29 11:23:59,0.407s,FAILED
+"openBrowser("""")",,,,2019-07-29 11:23:59,2019-07-29 11:23:59,0.023s,FAILED
+,,,,,,,
+Test Cases/BPM POC/TC_003_Verify_RequiredField,,,,2019-07-29 11:23:59,2019-07-29 11:24:00,0.406s,FAILED
+"openBrowser("""")",,,,2019-07-29 11:24:00,2019-07-29 11:24:00,0.019s,FAILED

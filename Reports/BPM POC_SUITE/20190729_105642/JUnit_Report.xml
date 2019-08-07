@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="BPM POC_SUITE" time="72" tests="3" failures="0" errors="0">
+    <testsuite name="BPM POC_SUITE" tests="3" failures="0" errors="0" time="72" timestamp="2019-07-29 10:56:44" hostname="snadanasigamani - ProDCWS-13" id="Test Suites/BPM POC_SUITE">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Users\\snadanasigamani\\Katalon Studio\\HibernatePOC\\Reports\\BPM POC_SUITE\\20190729_105642"/>
+            <property name="logFiles" value="C:\\Users\\snadanasigamani\\Katalon Studio\\HibernatePOC\\Reports\\BPM POC_SUITE\\20190729_105642\\execution0.log, C:\\Users\\snadanasigamani\\Katalon Studio\\HibernatePOC\\Reports\\BPM POC_SUITE\\20190729_105642\\IEDriverServer.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="snadanasigamani - ProDCWS-13"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.2.1.2"/>
+            <property name="browser" value="IE 11"/>
+            <property name="hostAddress" value="192.168.111.183"/>
+            <property name="sessionId" value="9bf6e399-3972-4117-b3f6-40ba84fb58a5"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 10"/>
+        </properties>
+        <testcase name="Test Cases/BPM POC/TC_001_Verify_Record_UpdateSuccessful" classname="Test Cases/BPM POC/TC_001_Verify_Record_UpdateSuccessful" status="PASSED">
+            <system-out>2019-07-29 10:56:44 - [TEST_CASE][PASSED] - Test Cases/BPM POC/TC_001_Verify_Record_UpdateSuccessful: Test Cases/BPM POC/TC_001_Verify_Record_UpdateSuccessful&#xD;
+&#xD;
+2019-07-29 10:56:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''&#xD;
+&#xD;
+2019-07-29 10:56:44 - [MESSAGE][INFO] - Starting 'IE' driver&#xD;
+&#xD;
+2019-07-29 10:56:44 - [MESSAGE][INFO] - Action delay is set to 0 seconds&#xD;
+&#xD;
+2019-07-29 10:56:46 - [MESSAGE][PASSED] - Browser is opened with url: ''&#xD;
+&#xD;
+2019-07-29 10:56:46 - [TEST_STEP][PASSED] - navigateToUrl("http://10.50.120.22/nvkids/#/login"): Navigate to 'http://10.50.120.22/nvkids/#/login' successfully&#xD;
+&#xD;
+2019-07-29 10:56:56 - [MESSAGE][PASSED] - Navigate to 'http://10.50.120.22/nvkids/#/login' successfully&#xD;
+&#xD;
+2019-07-29 10:56:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized&#xD;
+&#xD;
+2019-07-29 10:56:56 - [MESSAGE][PASSED] - Current window maximized&#xD;
+&#xD;
+2019-07-29 10:56:56 - [TEST_STEP][PASSED] - waitForAngularLoad(10): This page doesn't use Angular.&#xD;
+&#xD;
+2019-07-29 10:56:56 - [MESSAGE][WARNING] - This page doesn't use Angular.&#xD;
+&#xD;
+2019-07-29 10:56:56 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/Input_Username"), "protechnv"): Text 'protechnv' is set on object 'Object Repository/Login Page/Input_Username'&#xD;
+&#xD;
+2019-07-29 10:56:57 - [MESSAGE][PASSED] - Text 'protechnv' is set on object 'Object Repository/Login Page/Input_Username'&#xD;
+&#xD;
+2019-07-29 10:56:57 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/Input_Password"), "Protech!23nv"): Text 'Protech!23nv' is set on object 'Object Repository/Login Page/Input_Password'&#xD;
+&#xD;
+2019-07-29 10:56:57 - [MESSAGE][PASSED] - Text 'Protech!23nv' is set on object 'Object Repository/Login Page/Input_Password'&#xD;
+&#xD;
+2019-07-29 10:56:57 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/Button_Login")): Object: 'Object Repository/Login Page/Button_Login' is clicked on&#xD;
+&#xD;
+2019-07-29 10:56:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Button_Login' is clicked on&#xD;
+&#xD;
+2019-07-29 10:56:59 - [TEST_STEP][PASSED] - doubleClick(findTestObject("BPM POC/GridRow")): Object: 'Object Repository/BPM POC/GridRow' is double clicked on&#xD;
+&#xD;
+2019-07-29 10:57:00 - [MESSAGE][PASSED] - Object: 'Object Repository/BPM POC/GridRow' is double clicked on&#xD;
+&#xD;
+2019-07-29 10:57:00 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)&#xD;
+&#xD;
+2019-07-29 10:57:05 - [MESSAGE][PASSED] - Delayed 5 second(s)&#xD;
+&#xD;
+2019-07-29 10:57:05 - [TEST_STEP][PASSED] - ra = RandomStringUtils.randomAlphanumeric(10): null&#xD;
+&#xD;
+2019-07-29 10:57:05 - [TEST_STEP][PASSED] - setText(findTestObject("BPM POC/Input_Description"), "Test - message" + ra): Text 'Test - messagelkOoD2SWoW' is set on object 'Object Repository/BPM POC/Input_Description'&#xD;
+&#xD;
+2019-07-29 10:57:05 - [MESSAGE][PASSED] - Text 'Test - messagelkOoD2SWoW' is set on object 'Object Repository/BPM POC/Input_Description'&#xD;
+&#xD;
+2019-07-29 10:57:06 - [TEST_STEP][PASSED] - click(findTestObject("BPM POC/Button_Save")): Object: 'Object Repository/BPM POC/Button_Save' is clicked on&#xD;
+&#xD;
+2019-07-29 10:57:06 - [MESSAGE][PASSED] - Object: 'Object Repository/BPM POC/Button_Save' is clicked on&#xD;
+&#xD;
+2019-07-29 10:57:06 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)&#xD;
+&#xD;
+2019-07-29 10:57:11 - [MESSAGE][PASSED] - Delayed 5 second(s)&#xD;
+&#xD;
+2019-07-29 10:57:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("BPM POC/Status_message"), "Success. Record Saved Successfully"): Actual text and expected text of test object 'Object Repository/BPM POC/Status_message' are matched.&#xD;
+&#xD;
+2019-07-29 10:57:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/BPM POC/Status_message' are matched.</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/BPM POC/TC_002_Verify_Record_AlreadyExist" classname="Test Cases/BPM POC/TC_002_Verify_Record_AlreadyExist" status="PASSED">
+            <system-out>2019-07-29 10:57:12 - [TEST_CASE][PASSED] - Test Cases/BPM POC/TC_002_Verify_Record_AlreadyExist: Test Cases/BPM POC/TC_002_Verify_Record_AlreadyExist&#xD;
+&#xD;
+2019-07-29 10:57:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''&#xD;
+&#xD;
+2019-07-29 10:57:12 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one&#xD;
+&#xD;
+2019-07-29 10:57:12 - [MESSAGE][INFO] - Starting 'IE' driver&#xD;
+&#xD;
+2019-07-29 10:57:14 - [MESSAGE][PASSED] - Browser is opened with url: ''&#xD;
+&#xD;
+2019-07-29 10:57:14 - [TEST_STEP][PASSED] - navigateToUrl("http://10.50.120.22/nvkids/#/login"): Navigate to 'http://10.50.120.22/nvkids/#/login' successfully&#xD;
+&#xD;
+2019-07-29 10:57:23 - [MESSAGE][PASSED] - Navigate to 'http://10.50.120.22/nvkids/#/login' successfully&#xD;
+&#xD;
+2019-07-29 10:57:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized&#xD;
+&#xD;
+2019-07-29 10:57:23 - [MESSAGE][PASSED] - Current window maximized&#xD;
+&#xD;
+2019-07-29 10:57:23 - [TEST_STEP][PASSED] - waitForAngularLoad(10): This page doesn't use Angular.&#xD;
+&#xD;
+2019-07-29 10:57:23 - [MESSAGE][WARNING] - This page doesn't use Angular.&#xD;
+&#xD;
+2019-07-29 10:57:23 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/Input_Username"), "protechnv"): Text 'protechnv' is set on object 'Object Repository/Login Page/Input_Username'&#xD;
+&#xD;
+2019-07-29 10:57:24 - [MESSAGE][PASSED] - Text 'protechnv' is set on object 'Object Repository/Login Page/Input_Username'&#xD;
+&#xD;
+2019-07-29 10:57:24 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/Input_Password"), "Protech!23nv"): Text 'Protech!23nv' is set on object 'Object Repository/Login Page/Input_Password'&#xD;
+&#xD;
+2019-07-29 10:57:24 - [MESSAGE][PASSED] - Text 'Protech!23nv' is set on object 'Object Repository/Login Page/Input_Password'&#xD;
+&#xD;
+2019-07-29 10:57:24 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/Button_Login")): Object: 'Object Repository/Login Page/Button_Login' is clicked on&#xD;
+&#xD;
+2019-07-29 10:57:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Button_Login' is clicked on&#xD;
+&#xD;
+2019-07-29 10:57:26 - [TEST_STEP][PASSED] - doubleClick(findTestObject("BPM POC/GridRow")): Object: 'Object Repository/BPM POC/GridRow' is double clicked on&#xD;
+&#xD;
+2019-07-29 10:57:27 - [MESSAGE][PASSED] - Object: 'Object Repository/BPM POC/GridRow' is double clicked on&#xD;
+&#xD;
+2019-07-29 10:57:27 - [TEST_STEP][PASSED] - setText(findTestObject("BPM POC/Input_Description"), "POC Test Message 6 POC Test Message 6 Sample9"): Text 'POC Test Message 6 POC Test Message 6 Sample9' is set on object 'Object Repository/BPM POC/Input_Description'&#xD;
+&#xD;
+2019-07-29 10:57:28 - [MESSAGE][PASSED] - Text 'POC Test Message 6 POC Test Message 6 Sample9' is set on object 'Object Repository/BPM POC/Input_Description'&#xD;
+&#xD;
+2019-07-29 10:57:28 - [TEST_STEP][PASSED] - click(findTestObject("BPM POC/Button_Save")): Object: 'Object Repository/BPM POC/Button_Save' is clicked on&#xD;
+&#xD;
+2019-07-29 10:57:29 - [MESSAGE][PASSED] - Object: 'Object Repository/BPM POC/Button_Save' is clicked on&#xD;
+&#xD;
+2019-07-29 10:57:29 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)&#xD;
+&#xD;
+2019-07-29 10:57:34 - [MESSAGE][PASSED] - Delayed 5 second(s)&#xD;
+&#xD;
+2019-07-29 10:57:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("BPM POC/Status_message"), "Failure. E : Record Already Exists"): Actual text and expected text of test object 'Object Repository/BPM POC/Status_message' are matched.&#xD;
+&#xD;
+2019-07-29 10:57:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/BPM POC/Status_message' are matched.</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/BPM POC/TC_003_Verify_RequiredField" classname="Test Cases/BPM POC/TC_003_Verify_RequiredField" status="PASSED">
+            <system-out>2019-07-29 10:57:34 - [TEST_CASE][PASSED] - Test Cases/BPM POC/TC_003_Verify_RequiredField: Test Cases/BPM POC/TC_003_Verify_RequiredField&#xD;
+&#xD;
+2019-07-29 10:57:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''&#xD;
+&#xD;
+2019-07-29 10:57:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one&#xD;
+&#xD;
+2019-07-29 10:57:35 - [MESSAGE][INFO] - Starting 'IE' driver&#xD;
+&#xD;
+2019-07-29 10:57:36 - [MESSAGE][PASSED] - Browser is opened with url: ''&#xD;
+&#xD;
+2019-07-29 10:57:36 - [TEST_STEP][PASSED] - navigateToUrl("http://10.50.120.22/nvkids/#/login"): Navigate to 'http://10.50.120.22/nvkids/#/login' successfully&#xD;
+&#xD;
+2019-07-29 10:57:46 - [MESSAGE][PASSED] - Navigate to 'http://10.50.120.22/nvkids/#/login' successfully&#xD;
+&#xD;
+2019-07-29 10:57:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized&#xD;
+&#xD;
+2019-07-29 10:57:46 - [MESSAGE][PASSED] - Current window maximized&#xD;
+&#xD;
+2019-07-29 10:57:46 - [TEST_STEP][PASSED] - waitForAngularLoad(10): This page doesn't use Angular.&#xD;
+&#xD;
+2019-07-29 10:57:46 - [MESSAGE][WARNING] - This page doesn't use Angular.&#xD;
+&#xD;
+2019-07-29 10:57:46 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/Input_Username"), "protechnv"): Text 'protechnv' is set on object 'Object Repository/Login Page/Input_Username'&#xD;
+&#xD;
+2019-07-29 10:57:46 - [MESSAGE][PASSED] - Text 'protechnv' is set on object 'Object Repository/Login Page/Input_Username'&#xD;
+&#xD;
+2019-07-29 10:57:46 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/Input_Password"), "Protech!23nv"): Text 'Protech!23nv' is set on object 'Object Repository/Login Page/Input_Password'&#xD;
+&#xD;
+2019-07-29 10:57:47 - [MESSAGE][PASSED] - Text 'Protech!23nv' is set on object 'Object Repository/Login Page/Input_Password'&#xD;
+&#xD;
+2019-07-29 10:57:47 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/Button_Login")): Object: 'Object Repository/Login Page/Button_Login' is clicked on&#xD;
+&#xD;
+2019-07-29 10:57:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Button_Login' is clicked on&#xD;
+&#xD;
+2019-07-29 10:57:48 - [TEST_STEP][PASSED] - doubleClick(findTestObject("BPM POC/GridRow")): Object: 'Object Repository/BPM POC/GridRow' is double clicked on&#xD;
+&#xD;
+2019-07-29 10:57:49 - [MESSAGE][PASSED] - Object: 'Object Repository/BPM POC/GridRow' is double clicked on&#xD;
+&#xD;
+2019-07-29 10:57:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("BPM POC/Input_Description"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/BPM POC/Input_Description'&#xD;
+&#xD;
+2019-07-29 10:57:50 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/BPM POC/Input_Description'&#xD;
+&#xD;
+2019-07-29 10:57:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("BPM POC/Input_Description"), Keys.chord(DELETE)): Keys 'DELETE + ' sent to object: 'Object Repository/BPM POC/Input_Description'&#xD;
+&#xD;
+2019-07-29 10:57:50 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/BPM POC/Input_Description'&#xD;
+&#xD;
+2019-07-29 10:57:50 - [TEST_STEP][PASSED] - click(findTestObject("BPM POC/Button_Save")): Object: 'Object Repository/BPM POC/Button_Save' is clicked on&#xD;
+&#xD;
+2019-07-29 10:57:51 - [MESSAGE][PASSED] - Object: 'Object Repository/BPM POC/Button_Save' is clicked on&#xD;
+&#xD;
+2019-07-29 10:57:51 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)&#xD;
+&#xD;
+2019-07-29 10:57:56 - [MESSAGE][PASSED] - Delayed 5 second(s)&#xD;
+&#xD;
+2019-07-29 10:57:56 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("BPM POC/Status_message"), "Failure. E0076 : Enter Required Fields"): Actual text and expected text of test object 'Object Repository/BPM POC/Status_message' are matched.&#xD;
+&#xD;
+2019-07-29 10:57:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/BPM POC/Status_message' are matched.</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-07-29 10:56:44 - [TEST_SUITE][INCOMPLETE] - BPM POC_SUITE: null</system-out>
+        <system-err>2019-07-29 10:56:44 - [TEST_SUITE][INCOMPLETE] - BPM POC_SUITE: null</system-err>
+    </testsuite>
+</testsuites>

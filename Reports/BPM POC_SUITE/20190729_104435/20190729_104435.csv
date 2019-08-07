@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+BPM POC_SUITE,IE 11,,,2019-07-29 10:44:37,2019-07-29 10:44:46,9.005s,INCOMPLETE
+,,,,,,,
+Test Cases/BPM POC/TC_001_Verify_Record_UpdateSuccessful,IE 11,,,2019-07-29 10:44:37,2019-07-29 10:44:40,2.856s,FAILED
+"openBrowser("""")",IE 11,,,2019-07-29 10:44:37,2019-07-29 10:44:40,2.250s,PASSED
+"navigateToUrl(""http://10.50.120.22/nvkids/#/login"")",IE 11,,,2019-07-29 10:44:40,2019-07-29 10:44:40,0.081s,PASSED
+maximizeWindow(),IE 11,,,2019-07-29 10:44:40,2019-07-29 10:44:40,0.034s,PASSED
+waitForAngularLoad(10),IE 11,,,2019-07-29 10:44:40,2019-07-29 10:44:40,0.118s,PASSED
+"setText(findTestObject(""Login Page/Input_Username""), ""protechnv"")",IE 11,,,2019-07-29 10:44:40,2019-07-29 10:44:40,0.095s,FAILED
+,,,,,,,
+Test Cases/BPM POC/TC_002_Verify_Record_AlreadyExist,IE 11,,,2019-07-29 10:44:40,2019-07-29 10:44:43,2.525s,FAILED
+"openBrowser("""")",IE 11,,,2019-07-29 10:44:40,2019-07-29 10:44:42,2.001s,PASSED
+"navigateToUrl(""http://10.50.120.22/nvkids/#/login"")",IE 11,,,2019-07-29 10:44:42,2019-07-29 10:44:42,0.124s,PASSED
+maximizeWindow(),IE 11,,,2019-07-29 10:44:42,2019-07-29 10:44:42,0.027s,PASSED
+waitForAngularLoad(10),IE 11,,,2019-07-29 10:44:42,2019-07-29 10:44:42,0.131s,PASSED
+"setText(findTestObject(""Login Page/Input_Username""), ""protechnv"")",IE 11,,,2019-07-29 10:44:42,2019-07-29 10:44:43,0.044s,FAILED
+,,,,,,,
+Test Cases/BPM POC/TC_003_Verify_RequiredField,IE 11,,,2019-07-29 10:44:43,2019-07-29 10:44:46,3.412s,FAILED
+"openBrowser("""")",IE 11,,,2019-07-29 10:44:43,2019-07-29 10:44:45,2.505s,PASSED
+"navigateToUrl(""http://10.50.120.22/nvkids/#/login"")",IE 11,,,2019-07-29 10:44:45,2019-07-29 10:44:46,0.397s,PASSED
+maximizeWindow(),IE 11,,,2019-07-29 10:44:46,2019-07-29 10:44:46,0.010s,PASSED
+waitForAngularLoad(10),IE 11,,,2019-07-29 10:44:46,2019-07-29 10:44:46,0.210s,PASSED
+"setText(findTestObject(""Login Page/Input_Username""), ""protechnv"")",IE 11,,,2019-07-29 10:44:46,2019-07-29 10:44:46,0.070s,FAILED

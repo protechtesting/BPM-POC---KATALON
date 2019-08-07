@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+BPM POC_SUITE,Chrome 75.0.3770.142,,,2019-07-29 13:24:06,2019-07-29 13:24:28,21.908s,INCOMPLETE
+,,,,,,,
+Test Cases/BPM POC/TC_001_Verify_Record_UpdateSuccessful,Chrome 75.0.3770.142,,,2019-07-29 13:24:06,2019-07-29 13:24:14,8.074s,FAILED
+"runtime.exec(""C:/DC/KILL BROWSER.bat"")",Chrome 75.0.3770.142,,,2019-07-29 13:24:07,2019-07-29 13:24:07,0.005s,NOT_RUN
+"openBrowser("""")",Chrome 75.0.3770.142,,,2019-07-29 13:24:07,2019-07-29 13:24:14,6.991s,PASSED
+navigateToUrl(URL),Chrome 75.0.3770.142,,,2019-07-29 13:24:14,2019-07-29 13:24:14,0.470s,FAILED
+,,,,,,,
+Test Cases/BPM POC/TC_002_Verify_Record_AlreadyExist,Chrome 75.0.3770.142,,,2019-07-29 13:24:14,2019-07-29 13:24:21,6.939s,FAILED
+"openBrowser("""")",Chrome 75.0.3770.142,,,2019-07-29 13:24:15,2019-07-29 13:24:21,6.186s,PASSED
+navigateToUrl(URL),Chrome 75.0.3770.142,,,2019-07-29 13:24:21,2019-07-29 13:24:21,0.300s,FAILED
+,,,,,,,
+Test Cases/BPM POC/TC_003_Verify_RequiredField,Chrome 75.0.3770.142,,,2019-07-29 13:24:21,2019-07-29 13:24:28,6.339s,FAILED
+"openBrowser("""")",Chrome 75.0.3770.142,,,2019-07-29 13:24:21,2019-07-29 13:24:27,5.917s,PASSED
+navigateToUrl(URL),Chrome 75.0.3770.142,,,2019-07-29 13:24:27,2019-07-29 13:24:28,0.288s,FAILED

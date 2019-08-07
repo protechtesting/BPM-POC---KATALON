@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_001_Verify_Record_UpdateSuccessful</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>daf56f4d-1df9-40e8-9e04-14c08aa1c595</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>12324c92-bd5e-4d2a-a5e2-8b82925d96e3</id>
+      <masked>false</masked>
+      <name>Description_Data</name>
+   </variable>
+</TestCaseEntity>

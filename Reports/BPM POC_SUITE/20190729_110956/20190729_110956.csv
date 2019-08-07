@@ -1,0 +1,50 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+BPM POC_SUITE,Chrome 75.0.3770.142,,,2019-07-29 11:09:58,2019-07-29 11:11:12,1m - 13.531s,INCOMPLETE
+,,,,,,,
+Test Cases/BPM POC/TC_001_Verify_Record_UpdateSuccessful,Chrome 75.0.3770.142,,,2019-07-29 11:09:58,2019-07-29 11:10:26,28.173s,PASSED
+"openBrowser("""")",Chrome 75.0.3770.142,,,2019-07-29 11:09:59,2019-07-29 11:10:05,5.988s,PASSED
+"navigateToUrl(""http://10.50.120.22/nvkids/#/login"")",Chrome 75.0.3770.142,,,2019-07-29 11:10:05,2019-07-29 11:10:10,5.756s,PASSED
+maximizeWindow(),Chrome 75.0.3770.142,,,2019-07-29 11:10:10,2019-07-29 11:10:14,4.137s,PASSED
+waitForAngularLoad(10),Chrome 75.0.3770.142,,,2019-07-29 11:10:14,2019-07-29 11:10:14,0.030s,PASSED
+"setText(findTestObject(""Login Page/Input_Username""), ""protechnv"")",Chrome 75.0.3770.142,,,2019-07-29 11:10:14,2019-07-29 11:10:15,0.167s,PASSED
+"setText(findTestObject(""Login Page/Input_Password""), ""Protech!23nv"")",Chrome 75.0.3770.142,,,2019-07-29 11:10:15,2019-07-29 11:10:15,0.124s,PASSED
+"click(findTestObject(""Login Page/Button_Login""))",Chrome 75.0.3770.142,,,2019-07-29 11:10:15,2019-07-29 11:10:15,0.094s,PASSED
+"doubleClick(findTestObject(""BPM POC/GridRow""))",Chrome 75.0.3770.142,,,2019-07-29 11:10:15,2019-07-29 11:10:16,0.862s,PASSED
+delay(5),Chrome 75.0.3770.142,,,2019-07-29 11:10:16,2019-07-29 11:10:21,5.032s,PASSED
+ra = RandomStringUtils.randomAlphanumeric(10),Chrome 75.0.3770.142,,,2019-07-29 11:10:21,2019-07-29 11:10:21,0.002s,PASSED
+"setText(findTestObject(""BPM POC/Input_Description""), ""Test - message"" + ra)",Chrome 75.0.3770.142,,,2019-07-29 11:10:21,2019-07-29 11:10:21,0.267s,PASSED
+"click(findTestObject(""BPM POC/Button_Save""))",Chrome 75.0.3770.142,,,2019-07-29 11:10:21,2019-07-29 11:10:21,0.080s,PASSED
+delay(5),Chrome 75.0.3770.142,,,2019-07-29 11:10:21,2019-07-29 11:10:26,5.007s,PASSED
+"verifyElementText(findTestObject(""BPM POC/Status_message""), ""Success. Record Saved Successfully"")",Chrome 75.0.3770.142,,,2019-07-29 11:10:26,2019-07-29 11:10:26,0.063s,PASSED
+takeScreenshot(),Chrome 75.0.3770.142,,,2019-07-29 11:10:26,2019-07-29 11:10:26,0.279s,PASSED
+,,,,,,,
+Test Cases/BPM POC/TC_002_Verify_Record_AlreadyExist,Chrome 75.0.3770.142,,,2019-07-29 11:10:26,2019-07-29 11:10:49,22.671s,PASSED
+"openBrowser("""")",Chrome 75.0.3770.142,,,2019-07-29 11:10:27,2019-07-29 11:10:32,5.663s,PASSED
+"navigateToUrl(""http://10.50.120.22/nvkids/#/login"")",Chrome 75.0.3770.142,,,2019-07-29 11:10:32,2019-07-29 11:10:38,5.874s,PASSED
+maximizeWindow(),Chrome 75.0.3770.142,,,2019-07-29 11:10:38,2019-07-29 11:10:42,4.124s,PASSED
+waitForAngularLoad(10),Chrome 75.0.3770.142,,,2019-07-29 11:10:42,2019-07-29 11:10:42,0.034s,PASSED
+"setText(findTestObject(""Login Page/Input_Username""), ""protechnv"")",Chrome 75.0.3770.142,,,2019-07-29 11:10:42,2019-07-29 11:10:42,0.126s,PASSED
+"setText(findTestObject(""Login Page/Input_Password""), ""Protech!23nv"")",Chrome 75.0.3770.142,,,2019-07-29 11:10:42,2019-07-29 11:10:43,0.102s,PASSED
+"click(findTestObject(""Login Page/Button_Login""))",Chrome 75.0.3770.142,,,2019-07-29 11:10:43,2019-07-29 11:10:43,0.075s,PASSED
+"doubleClick(findTestObject(""BPM POC/GridRow""))",Chrome 75.0.3770.142,,,2019-07-29 11:10:43,2019-07-29 11:10:43,0.794s,PASSED
+"setText(findTestObject(""BPM POC/Input_Description""), ""POC Test Message 6 POC Test Message 6 Sample9"")",Chrome 75.0.3770.142,,,2019-07-29 11:10:43,2019-07-29 11:10:44,0.338s,PASSED
+"click(findTestObject(""BPM POC/Button_Save""))",Chrome 75.0.3770.142,,,2019-07-29 11:10:44,2019-07-29 11:10:44,0.074s,PASSED
+delay(5),Chrome 75.0.3770.142,,,2019-07-29 11:10:44,2019-07-29 11:10:49,5.002s,PASSED
+"verifyElementText(findTestObject(""BPM POC/Status_message""), ""Failure. E : Record Already Exists"")",Chrome 75.0.3770.142,,,2019-07-29 11:10:49,2019-07-29 11:10:49,0.031s,PASSED
+takeScreenshot(),Chrome 75.0.3770.142,,,2019-07-29 11:10:49,2019-07-29 11:10:49,0.238s,PASSED
+,,,,,,,
+Test Cases/BPM POC/TC_003_Verify_RequiredField,Chrome 75.0.3770.142,,,2019-07-29 11:10:49,2019-07-29 11:11:12,22.461s,PASSED
+"openBrowser("""")",Chrome 75.0.3770.142,,,2019-07-29 11:10:49,2019-07-29 11:10:55,5.677s,PASSED
+"navigateToUrl(""http://10.50.120.22/nvkids/#/login"")",Chrome 75.0.3770.142,,,2019-07-29 11:10:55,2019-07-29 11:11:01,5.818s,PASSED
+maximizeWindow(),Chrome 75.0.3770.142,,,2019-07-29 11:11:01,2019-07-29 11:11:05,4.123s,PASSED
+waitForAngularLoad(10),Chrome 75.0.3770.142,,,2019-07-29 11:11:05,2019-07-29 11:11:05,0.008s,PASSED
+"setText(findTestObject(""Login Page/Input_Username""), ""protechnv"")",Chrome 75.0.3770.142,,,2019-07-29 11:11:05,2019-07-29 11:11:05,0.146s,PASSED
+"setText(findTestObject(""Login Page/Input_Password""), ""Protech!23nv"")",Chrome 75.0.3770.142,,,2019-07-29 11:11:05,2019-07-29 11:11:05,0.108s,PASSED
+"click(findTestObject(""Login Page/Button_Login""))",Chrome 75.0.3770.142,,,2019-07-29 11:11:05,2019-07-29 11:11:05,0.091s,PASSED
+"doubleClick(findTestObject(""BPM POC/GridRow""))",Chrome 75.0.3770.142,,,2019-07-29 11:11:05,2019-07-29 11:11:06,0.799s,PASSED
+"sendKeys(findTestObject(""BPM POC/Input_Description""), Keys.chord(CONTROL, ""a""))",Chrome 75.0.3770.142,,,2019-07-29 11:11:06,2019-07-29 11:11:06,0.076s,PASSED
+"sendKeys(findTestObject(""BPM POC/Input_Description""), Keys.chord(DELETE))",Chrome 75.0.3770.142,,,2019-07-29 11:11:06,2019-07-29 11:11:06,0.048s,PASSED
+"click(findTestObject(""BPM POC/Button_Save""))",Chrome 75.0.3770.142,,,2019-07-29 11:11:06,2019-07-29 11:11:06,0.090s,PASSED
+delay(5),Chrome 75.0.3770.142,,,2019-07-29 11:11:06,2019-07-29 11:11:11,5.001s,PASSED
+"verifyElementText(findTestObject(""BPM POC/Status_message""), ""Failure. E0076 : Enter Required Fields"")",Chrome 75.0.3770.142,,,2019-07-29 11:11:11,2019-07-29 11:11:11,0.028s,PASSED
+takeScreenshot(),Chrome 75.0.3770.142,,,2019-07-29 11:11:11,2019-07-29 11:11:12,0.250s,PASSED

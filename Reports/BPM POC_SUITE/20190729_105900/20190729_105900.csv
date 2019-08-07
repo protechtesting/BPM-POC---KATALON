@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+BPM POC_SUITE,IE 11,,,2019-07-29 10:59:04,2019-07-29 11:00:23,1m - 19.161s,INCOMPLETE
+,,,,,,,
+Test Cases/BPM POC/TC_001_Verify_Record_UpdateSuccessful,IE 11,,,2019-07-29 10:59:04,2019-07-29 10:59:35,30.802s,PASSED
+"openBrowser("""")",IE 11,,,2019-07-29 10:59:05,2019-07-29 10:59:07,2.820s,PASSED
+"navigateToUrl(""http://10.50.120.22/nvkids/#/login"")",IE 11,,,2019-07-29 10:59:07,2019-07-29 10:59:19,11.559s,PASSED
+maximizeWindow(),IE 11,,,2019-07-29 10:59:19,2019-07-29 10:59:19,0.031s,PASSED
+waitForAngularLoad(10),IE 11,,,2019-07-29 10:59:19,2019-07-29 10:59:19,0.054s,PASSED
+"setText(findTestObject(""Login Page/Input_Username""), ""protechnv"")",IE 11,,,2019-07-29 10:59:19,2019-07-29 10:59:20,0.577s,PASSED
+"setText(findTestObject(""Login Page/Input_Password""), ""Protech!23nv"")",IE 11,,,2019-07-29 10:59:20,2019-07-29 10:59:20,0.479s,PASSED
+"click(findTestObject(""Login Page/Button_Login""))",IE 11,,,2019-07-29 10:59:20,2019-07-29 10:59:21,1.419s,PASSED
+"doubleClick(findTestObject(""BPM POC/GridRow""))",IE 11,,,2019-07-29 10:59:21,2019-07-29 10:59:23,1.716s,PASSED
+delay(5),IE 11,,,2019-07-29 10:59:23,2019-07-29 10:59:28,5.040s,PASSED
+ra = RandomStringUtils.randomAlphanumeric(10),IE 11,,,2019-07-29 10:59:28,2019-07-29 10:59:28,0.003s,PASSED
+"setText(findTestObject(""BPM POC/Input_Description""), ""Test - message"" + ra)",IE 11,,,2019-07-29 10:59:28,2019-07-29 10:59:29,0.551s,PASSED
+"click(findTestObject(""BPM POC/Button_Save""))",IE 11,,,2019-07-29 10:59:29,2019-07-29 10:59:30,0.923s,PASSED
+delay(5),IE 11,,,2019-07-29 10:59:30,2019-07-29 10:59:35,5.002s,PASSED
+"verifyElementText(findTestObject(""BPM POC/Status_message""), ""Success. Record Saved Successfully"")",IE 11,,,2019-07-29 10:59:35,2019-07-29 10:59:35,0.122s,PASSED
+,,,,,,,
+Test Cases/BPM POC/TC_002_Verify_Record_AlreadyExist,IE 11,,,2019-07-29 10:59:35,2019-07-29 10:59:59,24.290s,PASSED
+"openBrowser("""")",IE 11,,,2019-07-29 10:59:35,2019-07-29 10:59:37,2.152s,PASSED
+"navigateToUrl(""http://10.50.120.22/nvkids/#/login"")",IE 11,,,2019-07-29 10:59:37,2019-07-29 10:59:48,11.073s,PASSED
+maximizeWindow(),IE 11,,,2019-07-29 10:59:48,2019-07-29 10:59:48,0.020s,PASSED
+waitForAngularLoad(10),IE 11,,,2019-07-29 10:59:48,2019-07-29 10:59:48,0.038s,PASSED
+"setText(findTestObject(""Login Page/Input_Username""), ""protechnv"")",IE 11,,,2019-07-29 10:59:48,2019-07-29 10:59:49,0.556s,PASSED
+"setText(findTestObject(""Login Page/Input_Password""), ""Protech!23nv"")",IE 11,,,2019-07-29 10:59:49,2019-07-29 10:59:49,0.447s,PASSED
+"click(findTestObject(""Login Page/Button_Login""))",IE 11,,,2019-07-29 10:59:49,2019-07-29 10:59:51,1.499s,PASSED
+"doubleClick(findTestObject(""BPM POC/GridRow""))",IE 11,,,2019-07-29 10:59:51,2019-07-29 10:59:52,1.217s,PASSED
+"setText(findTestObject(""BPM POC/Input_Description""), ""POC Test Message 6 POC Test Message 6 Sample9"")",IE 11,,,2019-07-29 10:59:52,2019-07-29 10:59:53,1.054s,PASSED
+"click(findTestObject(""BPM POC/Button_Save""))",IE 11,,,2019-07-29 10:59:53,2019-07-29 10:59:54,0.966s,PASSED
+delay(5),IE 11,,,2019-07-29 10:59:54,2019-07-29 10:59:59,5.002s,PASSED
+"verifyElementText(findTestObject(""BPM POC/Status_message""), ""Failure. E : Record Already Exists"")",IE 11,,,2019-07-29 10:59:59,2019-07-29 10:59:59,0.122s,PASSED
+,,,,,,,
+Test Cases/BPM POC/TC_003_Verify_RequiredField,IE 11,,,2019-07-29 10:59:59,2019-07-29 11:00:23,23.742s,PASSED
+"openBrowser("""")",IE 11,,,2019-07-29 10:59:59,2019-07-29 11:00:01,1.964s,PASSED
+"navigateToUrl(""http://10.50.120.22/nvkids/#/login"")",IE 11,,,2019-07-29 11:00:01,2019-07-29 11:00:12,10.973s,PASSED
+maximizeWindow(),IE 11,,,2019-07-29 11:00:12,2019-07-29 11:00:12,0.022s,PASSED
+waitForAngularLoad(10),IE 11,,,2019-07-29 11:00:12,2019-07-29 11:00:12,0.038s,PASSED
+"setText(findTestObject(""Login Page/Input_Username""), ""protechnv"")",IE 11,,,2019-07-29 11:00:12,2019-07-29 11:00:13,0.458s,PASSED
+"setText(findTestObject(""Login Page/Input_Password""), ""Protech!23nv"")",IE 11,,,2019-07-29 11:00:13,2019-07-29 11:00:13,0.455s,PASSED
+"click(findTestObject(""Login Page/Button_Login""))",IE 11,,,2019-07-29 11:00:13,2019-07-29 11:00:15,1.366s,PASSED
+"doubleClick(findTestObject(""BPM POC/GridRow""))",IE 11,,,2019-07-29 11:00:15,2019-07-29 11:00:16,1.379s,PASSED
+"sendKeys(findTestObject(""BPM POC/Input_Description""), Keys.chord(CONTROL, ""a""))",IE 11,,,2019-07-29 11:00:16,2019-07-29 11:00:17,0.560s,PASSED
+"sendKeys(findTestObject(""BPM POC/Input_Description""), Keys.chord(DELETE))",IE 11,,,2019-07-29 11:00:17,2019-07-29 11:00:17,0.264s,PASSED
+"click(findTestObject(""BPM POC/Button_Save""))",IE 11,,,2019-07-29 11:00:17,2019-07-29 11:00:18,0.975s,PASSED
+delay(5),IE 11,,,2019-07-29 11:00:18,2019-07-29 11:00:23,5.002s,PASSED
+"verifyElementText(findTestObject(""BPM POC/Status_message""), ""Failure. E0076 : Enter Required Fields"")",IE 11,,,2019-07-29 11:00:23,2019-07-29 11:00:23,0.122s,PASSED

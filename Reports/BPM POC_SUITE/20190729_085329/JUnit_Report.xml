@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="BPM POC_SUITE" time="70" tests="2" failures="1" errors="0">
+    <testsuite name="BPM POC_SUITE" tests="2" failures="1" errors="0" time="70" timestamp="2019-07-29 08:53:31" hostname="snadanasigamani - ProDCWS-13" id="Test Suites/BPM POC_SUITE">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Users\\snadanasigamani\\Katalon Studio\\HibernatePOC\\Reports\\BPM POC_SUITE\\20190729_085329"/>
+            <property name="logFiles" value="C:\\Users\\snadanasigamani\\Katalon Studio\\HibernatePOC\\Reports\\BPM POC_SUITE\\20190729_085329\\execution0.log"/>
+            <property name="attachments" value="C:\\Users\\snadanasigamani\\Katalon Studio\\HibernatePOC\\Reports\\BPM POC_SUITE\\20190729_085329\\1564415635313.png, C:\\Users\\snadanasigamani\\Katalon Studio\\HibernatePOC\\Reports\\BPM POC_SUITE\\20190729_085329\\1564415635682.png"/>
+            <property name="hostName" value="snadanasigamani - ProDCWS-13"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.2.1.2"/>
+            <property name="browser" value="Chrome 75.0.3770.142"/>
+            <property name="hostAddress" value="192.168.111.183"/>
+            <property name="sessionId" value="30671a69a6f85326da35ba243f8ac59b"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 10"/>
+        </properties>
+        <testcase name="Test Cases/BPM POC/TC_001_Verify_Record_UpdateSuccessful" classname="Test Cases/BPM POC/TC_001_Verify_Record_UpdateSuccessful" status="FAILED">
+            <failure type="FAILED" message="Test Cases/BPM POC/TC_001_Verify_Record_UpdateSuccessful FAILED.&#xA;Reason:&#xA;com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/BPM POC/Status_message' FAILED.&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)&#xD;&#xA;&#x9;at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)&#xD;&#xA;&#x9;at TC_001_Verify_Record_UpdateSuccessful.run(TC_001_Verify_Record_UpdateSuccessful:38)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1564415609563.run(TempTestSuite1564415609563.groovy:35)&#xD;&#xA;Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Failure. E : Record Already Exists' and expected text 'Success. Record Saved Successfully' of test object 'Object Repository/BPM POC/Status_message' are NOT matched.&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;&#xA;&#x9;... 19 more&#xD;&#xA;"/>
+            <system-out>2019-07-29 08:53:31 - [TEST_CASE][FAILED] - Test Cases/BPM POC/TC_001_Verify_Record_UpdateSuccessful: Test Cases/BPM POC/TC_001_Verify_Record_UpdateSuccessful FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/BPM POC/Status_message' FAILED.&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)&#xD;
+	at TC_001_Verify_Record_UpdateSuccessful.run(TC_001_Verify_Record_UpdateSuccessful:38)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1564415609563.run(TempTestSuite1564415609563.groovy:35)&#xD;
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Failure. E : Record Already Exists' and expected text 'Success. Record Saved Successfully' of test object 'Object Repository/BPM POC/Status_message' are NOT matched.&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	... 19 more&#xD;
+&#xD;
+&#xD;
+2019-07-29 08:53:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''&#xD;
+&#xD;
+2019-07-29 08:53:32 - [MESSAGE][INFO] - Starting 'Chrome' driver&#xD;
+&#xD;
+2019-07-29 08:53:32 - [MESSAGE][INFO] - Action delay is set to 0 seconds&#xD;
+&#xD;
+2019-07-29 08:53:38 - [MESSAGE][PASSED] - Browser is opened with url: ''&#xD;
+&#xD;
+2019-07-29 08:53:38 - [TEST_STEP][PASSED] - navigateToUrl("http://10.50.120.22/nvkids/#/login"): Navigate to 'http://10.50.120.22/nvkids/#/login' successfully&#xD;
+&#xD;
+2019-07-29 08:53:44 - [MESSAGE][PASSED] - Navigate to 'http://10.50.120.22/nvkids/#/login' successfully&#xD;
+&#xD;
+2019-07-29 08:53:44 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized&#xD;
+&#xD;
+2019-07-29 08:53:48 - [MESSAGE][PASSED] - Current window maximized&#xD;
+&#xD;
+2019-07-29 08:53:48 - [TEST_STEP][PASSED] - waitForAngularLoad(10): This page doesn't use Angular.&#xD;
+&#xD;
+2019-07-29 08:53:48 - [MESSAGE][WARNING] - This page doesn't use Angular.&#xD;
+&#xD;
+2019-07-29 08:53:48 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/Input_Username"), "protechnv"): Text 'protechnv' is set on object 'Object Repository/Login Page/Input_Username'&#xD;
+&#xD;
+2019-07-29 08:53:48 - [MESSAGE][PASSED] - Text 'protechnv' is set on object 'Object Repository/Login Page/Input_Username'&#xD;
+&#xD;
+2019-07-29 08:53:48 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/Input_Password"), "Protech!23nv"): Text 'Protech!23nv' is set on object 'Object Repository/Login Page/Input_Password'&#xD;
+&#xD;
+2019-07-29 08:53:48 - [MESSAGE][PASSED] - Text 'Protech!23nv' is set on object 'Object Repository/Login Page/Input_Password'&#xD;
+&#xD;
+2019-07-29 08:53:48 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/Button_Login")): Object: 'Object Repository/Login Page/Button_Login' is clicked on&#xD;
+&#xD;
+2019-07-29 08:53:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Button_Login' is clicked on&#xD;
+&#xD;
+2019-07-29 08:53:48 - [TEST_STEP][PASSED] - doubleClick(findTestObject("BPM POC/GridRow")): Object: 'Object Repository/BPM POC/GridRow' is double clicked on&#xD;
+&#xD;
+2019-07-29 08:53:49 - [MESSAGE][PASSED] - Object: 'Object Repository/BPM POC/GridRow' is double clicked on&#xD;
+&#xD;
+2019-07-29 08:53:49 - [TEST_STEP][PASSED] - setText(findTestObject("BPM POC/Input_Description"), "POC Test Message 6 POC Test Message 6 Sampl12445654665"): Text 'POC Test Message 6 POC Test Message 6 Sampl12445654665' is set on object 'Object Repository/BPM POC/Input_Description'&#xD;
+&#xD;
+2019-07-29 08:53:50 - [MESSAGE][PASSED] - Text 'POC Test Message 6 POC Test Message 6 Sampl12445654665' is set on object 'Object Repository/BPM POC/Input_Description'&#xD;
+&#xD;
+2019-07-29 08:53:50 - [TEST_STEP][PASSED] - click(findTestObject("BPM POC/Button_Save")): Object: 'Object Repository/BPM POC/Button_Save' is clicked on&#xD;
+&#xD;
+2019-07-29 08:53:50 - [MESSAGE][PASSED] - Object: 'Object Repository/BPM POC/Button_Save' is clicked on&#xD;
+&#xD;
+2019-07-29 08:53:50 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)&#xD;
+&#xD;
+2019-07-29 08:53:55 - [MESSAGE][PASSED] - Delayed 5 second(s)&#xD;
+&#xD;
+2019-07-29 08:53:55 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("BPM POC/Status_message"), "Success. Record Saved Successfully"): Verify element text of test object 'Object Repository/BPM POC/Status_message' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/BPM POC/Status_message' FAILED.&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)&#xD;
+	at TC_001_Verify_Record_UpdateSuccessful.run(TC_001_Verify_Record_UpdateSuccessful:38)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1564415609563.run(TempTestSuite1564415609563.groovy:35)&#xD;
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Failure. E : Record Already Exists' and expected text 'Success. Record Saved Successfully' of test object 'Object Repository/BPM POC/Status_message' are NOT matched.&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	... 19 more&#xD;
+)&#xD;
+&#xD;
+2019-07-29 08:53:55 - [MESSAGE][FAILED] - Actual text 'Failure. E : Record Already Exists' and expected text 'Success. Record Saved Successfully' of test object 'Object Repository/BPM POC/Status_message' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Failure. E : Record Already Exists' and expected text 'Success. Record Saved Successfully' of test object 'Object Repository/BPM POC/Status_message' are NOT matched.&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)&#xD;
+	at TC_001_Verify_Record_UpdateSuccessful.run(TC_001_Verify_Record_UpdateSuccessful:38)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1564415609563.run(TempTestSuite1564415609563.groovy:35)&#xD;
+)&#xD;
+[[ATTACHMENT|C:\\Users\\snadanasigamani\\Katalon Studio\\HibernatePOC\\Reports\\BPM POC_SUITE\\20190729_085329\\1564415635313.png]]&#xD;
+&#xD;
+2019-07-29 08:53:56 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/BPM POC/Status_message' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/BPM POC/Status_message' FAILED.&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)&#xD;
+	at TC_001_Verify_Record_UpdateSuccessful.run(TC_001_Verify_Record_UpdateSuccessful:38)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1564415609563.run(TempTestSuite1564415609563.groovy:35)&#xD;
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Failure. E : Record Already Exists' and expected text 'Success. Record Saved Successfully' of test object 'Object Repository/BPM POC/Status_message' are NOT matched.&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	... 19 more&#xD;
+)&#xD;
+[[ATTACHMENT|C:\\Users\\snadanasigamani\\Katalon Studio\\HibernatePOC\\Reports\\BPM POC_SUITE\\20190729_085329\\1564415635682.png]]</system-out>
+            <system-err>2019-07-29 08:53:31 - [TEST_CASE][FAILED] - Test Cases/BPM POC/TC_001_Verify_Record_UpdateSuccessful: Test Cases/BPM POC/TC_001_Verify_Record_UpdateSuccessful FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/BPM POC/Status_message' FAILED.&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)&#xD;
+	at TC_001_Verify_Record_UpdateSuccessful.run(TC_001_Verify_Record_UpdateSuccessful:38)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1564415609563.run(TempTestSuite1564415609563.groovy:35)&#xD;
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Failure. E : Record Already Exists' and expected text 'Success. Record Saved Successfully' of test object 'Object Repository/BPM POC/Status_message' are NOT matched.&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	... 19 more</system-err>
+        </testcase>
+        <testcase name="Test Cases/BPM POC/TC_002_Verify_Record_AlreadyExist" classname="Test Cases/BPM POC/TC_002_Verify_Record_AlreadyExist" status="PASSED">
+            <system-out>2019-07-29 08:53:56 - [TEST_CASE][PASSED] - Test Cases/BPM POC/TC_002_Verify_Record_AlreadyExist: Test Cases/BPM POC/TC_002_Verify_Record_AlreadyExist&#xD;
+&#xD;
+2019-07-29 08:53:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''&#xD;
+&#xD;
+2019-07-29 08:53:56 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one&#xD;
+&#xD;
+2019-07-29 08:53:56 - [MESSAGE][INFO] - Starting 'Chrome' driver&#xD;
+&#xD;
+2019-07-29 08:54:02 - [MESSAGE][PASSED] - Browser is opened with url: ''&#xD;
+&#xD;
+2019-07-29 08:54:02 - [TEST_STEP][PASSED] - navigateToUrl("http://10.50.120.22/nvkids/#/login"): Navigate to 'http://10.50.120.22/nvkids/#/login' successfully&#xD;
+&#xD;
+2019-07-29 08:54:08 - [MESSAGE][PASSED] - Navigate to 'http://10.50.120.22/nvkids/#/login' successfully&#xD;
+&#xD;
+2019-07-29 08:54:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized&#xD;
+&#xD;
+2019-07-29 08:54:12 - [MESSAGE][PASSED] - Current window maximized&#xD;
+&#xD;
+2019-07-29 08:54:12 - [TEST_STEP][PASSED] - waitForAngularLoad(10): This page doesn't use Angular.&#xD;
+&#xD;
+2019-07-29 08:54:12 - [MESSAGE][WARNING] - This page doesn't use Angular.&#xD;
+&#xD;
+2019-07-29 08:54:12 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/Input_Username"), "protechnv"): Text 'protechnv' is set on object 'Object Repository/Login Page/Input_Username'&#xD;
+&#xD;
+2019-07-29 08:54:12 - [MESSAGE][PASSED] - Text 'protechnv' is set on object 'Object Repository/Login Page/Input_Username'&#xD;
+&#xD;
+2019-07-29 08:54:12 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/Input_Password"), "Protech!23nv"): Text 'Protech!23nv' is set on object 'Object Repository/Login Page/Input_Password'&#xD;
+&#xD;
+2019-07-29 08:54:12 - [MESSAGE][PASSED] - Text 'Protech!23nv' is set on object 'Object Repository/Login Page/Input_Password'&#xD;
+&#xD;
+2019-07-29 08:54:12 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/Button_Login")): Object: 'Object Repository/Login Page/Button_Login' is clicked on&#xD;
+&#xD;
+2019-07-29 08:54:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Button_Login' is clicked on&#xD;
+&#xD;
+2019-07-29 08:54:12 - [TEST_STEP][PASSED] - doubleClick(findTestObject("BPM POC/GridRow")): Object: 'Object Repository/BPM POC/GridRow' is double clicked on&#xD;
+&#xD;
+2019-07-29 08:54:13 - [MESSAGE][PASSED] - Object: 'Object Repository/BPM POC/GridRow' is double clicked on&#xD;
+&#xD;
+2019-07-29 08:54:13 - [TEST_STEP][PASSED] - setText(findTestObject("BPM POC/Input_Description"), "POC Test Message 6 POC Test Message 6 Sample9"): Text 'POC Test Message 6 POC Test Message 6 Sample9' is set on object 'Object Repository/BPM POC/Input_Description'&#xD;
+&#xD;
+2019-07-29 08:54:13 - [MESSAGE][PASSED] - Text 'POC Test Message 6 POC Test Message 6 Sample9' is set on object 'Object Repository/BPM POC/Input_Description'&#xD;
+&#xD;
+2019-07-29 08:54:13 - [TEST_STEP][PASSED] - click(findTestObject("BPM POC/Button_Save")): Object: 'Object Repository/BPM POC/Button_Save' is clicked on&#xD;
+&#xD;
+2019-07-29 08:54:13 - [MESSAGE][PASSED] - Object: 'Object Repository/BPM POC/Button_Save' is clicked on&#xD;
+&#xD;
+2019-07-29 08:54:13 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)&#xD;
+&#xD;
+2019-07-29 08:54:18 - [MESSAGE][PASSED] - Delayed 5 second(s)&#xD;
+&#xD;
+2019-07-29 08:54:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("BPM POC/Status_message"), "Failure. E : Record Already Exists"): Actual text and expected text of test object 'Object Repository/BPM POC/Status_message' are matched.&#xD;
+&#xD;
+2019-07-29 08:54:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/BPM POC/Status_message' are matched.</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/BPM POC/TC_003_Verify_RequiredField" classname="Test Cases/BPM POC/TC_003_Verify_RequiredField" status="PASSED">
+            <system-out>2019-07-29 08:54:18 - [TEST_CASE][PASSED] - Test Cases/BPM POC/TC_003_Verify_RequiredField: Test Cases/BPM POC/TC_003_Verify_RequiredField&#xD;
+&#xD;
+2019-07-29 08:54:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''&#xD;
+&#xD;
+2019-07-29 08:54:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one&#xD;
+&#xD;
+2019-07-29 08:54:19 - [MESSAGE][INFO] - Starting 'Chrome' driver&#xD;
+&#xD;
+2019-07-29 08:54:25 - [MESSAGE][PASSED] - Browser is opened with url: ''&#xD;
+&#xD;
+2019-07-29 08:54:25 - [TEST_STEP][PASSED] - navigateToUrl("http://10.50.120.22/nvkids/#/login"): Navigate to 'http://10.50.120.22/nvkids/#/login' successfully&#xD;
+&#xD;
+2019-07-29 08:54:31 - [MESSAGE][PASSED] - Navigate to 'http://10.50.120.22/nvkids/#/login' successfully&#xD;
+&#xD;
+2019-07-29 08:54:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized&#xD;
+&#xD;
+2019-07-29 08:54:35 - [MESSAGE][PASSED] - Current window maximized&#xD;
+&#xD;
+2019-07-29 08:54:35 - [TEST_STEP][PASSED] - waitForAngularLoad(10): This page doesn't use Angular.&#xD;
+&#xD;
+2019-07-29 08:54:35 - [MESSAGE][WARNING] - This page doesn't use Angular.&#xD;
+&#xD;
+2019-07-29 08:54:35 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/Input_Username"), "protechnv"): Text 'protechnv' is set on object 'Object Repository/Login Page/Input_Username'&#xD;
+&#xD;
+2019-07-29 08:54:35 - [MESSAGE][PASSED] - Text 'protechnv' is set on object 'Object Repository/Login Page/Input_Username'&#xD;
+&#xD;
+2019-07-29 08:54:35 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/Input_Password"), "Protech!23nv"): Text 'Protech!23nv' is set on object 'Object Repository/Login Page/Input_Password'&#xD;
+&#xD;
+2019-07-29 08:54:35 - [MESSAGE][PASSED] - Text 'Protech!23nv' is set on object 'Object Repository/Login Page/Input_Password'&#xD;
+&#xD;
+2019-07-29 08:54:35 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/Button_Login")): Object: 'Object Repository/Login Page/Button_Login' is clicked on&#xD;
+&#xD;
+2019-07-29 08:54:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Button_Login' is clicked on&#xD;
+&#xD;
+2019-07-29 08:54:35 - [TEST_STEP][PASSED] - doubleClick(findTestObject("BPM POC/GridRow")): Object: 'Object Repository/BPM POC/GridRow' is double clicked on&#xD;
+&#xD;
+2019-07-29 08:54:36 - [MESSAGE][PASSED] - Object: 'Object Repository/BPM POC/GridRow' is double clicked on&#xD;
+&#xD;
+2019-07-29 08:54:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("BPM POC/Input_Description"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/BPM POC/Input_Description'&#xD;
+&#xD;
+2019-07-29 08:54:36 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/BPM POC/Input_Description'&#xD;
+&#xD;
+2019-07-29 08:54:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("BPM POC/Input_Description"), Keys.chord(DELETE)): Keys 'DELETE + ' sent to object: 'Object Repository/BPM POC/Input_Description'&#xD;
+&#xD;
+2019-07-29 08:54:36 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/BPM POC/Input_Description'&#xD;
+&#xD;
+2019-07-29 08:54:36 - [TEST_STEP][PASSED] - click(findTestObject("BPM POC/Button_Save")): Object: 'Object Repository/BPM POC/Button_Save' is clicked on&#xD;
+&#xD;
+2019-07-29 08:54:36 - [MESSAGE][PASSED] - Object: 'Object Repository/BPM POC/Button_Save' is clicked on&#xD;
+&#xD;
+2019-07-29 08:54:36 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)&#xD;
+&#xD;
+2019-07-29 08:54:41 - [MESSAGE][PASSED] - Delayed 5 second(s)&#xD;
+&#xD;
+2019-07-29 08:54:41 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("BPM POC/Status_message"), "Failure. E0076 : Enter Required Fields"): Actual text and expected text of test object 'Object Repository/BPM POC/Status_message' are matched.&#xD;
+&#xD;
+2019-07-29 08:54:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/BPM POC/Status_message' are matched.</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-07-29 08:53:31 - [TEST_SUITE][INCOMPLETE] - BPM POC_SUITE: null</system-out>
+        <system-err>2019-07-29 08:53:31 - [TEST_SUITE][INCOMPLETE] - BPM POC_SUITE: null</system-err>
+    </testsuite>
+</testsuites>

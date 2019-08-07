@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+BPM POC_SUITE,IE 11,,,2019-07-29 13:26:51,2019-07-29 13:27:01,9.580s,INCOMPLETE
+,,,,,,,
+Test Cases/BPM POC/TC_001_Verify_Record_UpdateSuccessful,IE 11,,,2019-07-29 13:26:51,2019-07-29 13:26:56,4.258s,FAILED
+"runtime.exec(""C:/DC/KILL BROWSER.bat"")",IE 11,,,2019-07-29 13:26:52,2019-07-29 13:26:52,0.164s,NOT_RUN
+"openBrowser("""")",IE 11,,,2019-07-29 13:26:52,2019-07-29 13:26:56,3.323s,PASSED
+navigateToUrl(URL),IE 11,,,2019-07-29 13:26:56,2019-07-29 13:26:56,0.167s,FAILED
+,,,,,,,
+Test Cases/BPM POC/TC_002_Verify_Record_AlreadyExist,IE 11,,,2019-07-29 13:26:56,2019-07-29 13:26:58,2.141s,FAILED
+"openBrowser("""")",IE 11,,,2019-07-29 13:26:56,2019-07-29 13:26:58,1.863s,PASSED
+navigateToUrl(URL),IE 11,,,2019-07-29 13:26:58,2019-07-29 13:26:58,0.118s,FAILED
+,,,,,,,
+Test Cases/BPM POC/TC_003_Verify_RequiredField,IE 11,,,2019-07-29 13:26:58,2019-07-29 13:27:01,2.739s,FAILED
+"openBrowser("""")",IE 11,,,2019-07-29 13:26:58,2019-07-29 13:27:00,2.436s,PASSED
+navigateToUrl(URL),IE 11,,,2019-07-29 13:27:00,2019-07-29 13:27:01,0.125s,FAILED
