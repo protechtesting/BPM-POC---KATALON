@@ -28,6 +28,8 @@ WebUI.setText(findTestObject('Login Page/Input_Username'), 'protechnv')
 
 WebUI.click(findTestObject('Login Page/Button_Login'))
 
+WebUI.waitForAngularLoad(10)
+
 WebUI.doubleClick(findTestObject('BPM POC/GridRow'))
 
 WebUI.sendKeys(findTestObject('BPM POC/Input_Description'), Keys.chord(Keys.CONTROL, 'a'))

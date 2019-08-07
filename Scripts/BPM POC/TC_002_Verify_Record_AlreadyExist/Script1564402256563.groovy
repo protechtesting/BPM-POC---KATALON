@@ -27,6 +27,8 @@ WebUI.setText(findTestObject('Login Page/Input_Username'), 'protechnv')
 
 WebUI.click(findTestObject('Login Page/Button_Login'))
 
+WebUI.waitForAngularLoad(10)
+
 WebUI.doubleClick(findTestObject('BPM POC/GridRow'))
 
 WebUI.setText(findTestObject('BPM POC/Input_Description'), 'POC Test Message 6 POC Test Message 6 Sample9')

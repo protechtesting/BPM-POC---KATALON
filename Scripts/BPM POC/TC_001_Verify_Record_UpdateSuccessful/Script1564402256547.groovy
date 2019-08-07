@@ -15,15 +15,11 @@ import internal.GlobalVariable as GlobalVariable
 import randomText.Stringgen as Stringgen
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
-Runtime.runtime.exec('C:/DC/KILL BROWSER.bat')
+not_run: Runtime.runtime.exec('C:/DC/KILL BROWSER.bat')
 
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://10.50.120.22/nvkids/#/login')
-
-WebUI.acceptAlert()
-
-WebUI.acceptAlert()
 
 WebUI.maximizeWindow()
 
@@ -34,6 +30,8 @@ WebUI.setText(findTestObject('Login Page/Input_Username'), 'protechnv')
 WebUI.setText(findTestObject('Login Page/Input_Password'), 'Protech!23nv')
 
 WebUI.click(findTestObject('Login Page/Button_Login'))
+
+WebUI.waitForAngularLoad(10)
 
 WebUI.doubleClick(findTestObject('BPM POC/GridRow'))
 
@@ -52,6 +50,4 @@ WebUI.verifyElementText(findTestObject('BPM POC/Status_message'), 'Success. Reco
 WebUI.takeScreenshot()
 
 WebUI.closeBrowser()
-
-WebUI.acceptAlert()
 
