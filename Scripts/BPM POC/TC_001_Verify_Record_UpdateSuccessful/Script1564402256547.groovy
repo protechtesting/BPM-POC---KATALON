@@ -21,9 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://10.50.120.22/nvkids/#/login')
 
-//WebUI.maximizeWindow()
+WebUI.maximizeWindow()
 
-//WebUI.waitForAngularLoad(10)
+WebUI.waitForAngularLoad(10)
 
 WebUI.setText(findTestObject('Login Page/Input_Username'), 'protechnv')
 
